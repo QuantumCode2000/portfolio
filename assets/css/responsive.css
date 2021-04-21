@@ -1,0 +1,25 @@
+@media (max-width : 600px  ) {
+    .hero .container {
+        
+        padding: 15% 15%;
+    }
+
+    .hero {
+        
+        background: #f5f5f5;
+        padding: 15% 5%;
+    }
+
+    
+
+    
+    
+}
+
+@media (max-width : 1200px) {
+    .hero {
+        
+        background: #f5f5f5;
+        padding: 15% 5%;
+    }
+}

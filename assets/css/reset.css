@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    padding: 48px 0;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+p {
+    margin-top: 10px;
+}
+img {
+    max-width: 100%;
+}

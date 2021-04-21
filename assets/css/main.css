@@ -1,0 +1,94 @@
+
+:root {
+    /*colors*/
+    --color-primary: #f76c5e;
+    --color-primary-highlight : #f68e5f;
+    --color-font-base: #071f47;
+    --color-font-base-highlight: #547aa5;
+    --color-font-inverted : #f5f5f5;
+    --color-secundary: #324376;
+    --color-secundary-highlight : #586ba4;
+    /*backgroud*/
+    --background-primary: #f2f4f9;
+    
+    /*font-sizes*/
+    --font-size-base : 10px;
+    --font-size-sm : 1.2rem;
+    --font-size-md : 1.6rem;
+    --font-size-lg : 2.5rem;
+    --font-size-xl : 3rem;
+    
+
+}
+
+body {
+    background:  var(--background-primary);
+    color : var(--color-font-base);
+    font-size: var(--font-size-base);
+}
+
+.hero {
+    background: url("../img/photo-dog.png") no-repeat;
+    background-size: 750px;
+    background-position: 110% 10% ;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+.container{
+    float: left;
+    height: 100vh;
+    margin: 0 auto;  
+    max-width:  70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 100px;
+}
+
+.hero-content{
+    max-width: 800px;
+}
+
+.title  {
+    font-size: var(--font-size-xl);
+}
+
+.title span {
+    color: var(--color-primary);
+}
+.title strong {
+     font-size: var(--font-size-lg);
+}
+
+p{
+     color: var(--color-font-base-highlight);
+     font-size: var(--font-size-md);  
+     margin: 20px 0;
+}
+
+
+button {
+     padding: 20px 30px;
+     border: 1px solid transparent;
+     background: var(--color-primary);
+     color: var(--color-font-inverted);
+     font-size: var(--font-size-md);
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+
+
+
+
+.biography {
+    height: 100vh;;
+    background-color: var(--color-secundary);
+}
+
+.expertise {
+    height: 100vh;;
+    background-color: var(--color-primary-highlight);
+}
+
