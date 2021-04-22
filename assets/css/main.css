@@ -71,7 +71,8 @@ p{
 
 button {
      padding: 20px 30px;
-     border: 1px solid transparent;
+     border: 3px solid transparent double;
+     border-radius: 15px;
      background: var(--color-primary);
      color: var(--color-font-inverted);
      font-size: var(--font-size-md);
