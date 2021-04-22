@@ -25,6 +25,7 @@ body {
     background:  var(--background-primary);
     color : var(--color-font-base);
     font-size: var(--font-size-base);
+    font-family: 'Karla', sans-serif;
 }
 
 .hero {
