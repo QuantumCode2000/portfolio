@@ -1,6 +1,6 @@
 @media (max-width : 600px  ) {
     .hero .container {
-        
+        max-width: 100%;
         padding: 15% 15%;
     }
 
@@ -11,9 +11,6 @@
     }
 
     
-
-    
-    
 }
 
 @media (max-width : 1200px) {
@@ -21,5 +18,12 @@
         
         background: none;
         padding: 15% 5%;
+    }
+}
+
+@media (max-width : 380px) {
+    .title span {
+        color: var(--color-primary);
+        
     }
 }

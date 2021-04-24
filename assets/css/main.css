@@ -8,15 +8,18 @@
     --color-font-inverted : #f5f5f5;
     --color-secundary: #324376;
     --color-secundary-highlight : #586ba4;
+    /* brand colors*/
+     --color-provincial-pink : #fff4f2;
     /*backgroud*/
     --background-primary: #f2f4f9;
     
     /*font-sizes*/
+    /*font-sizes*/
     --font-size-base : 10px;
-    --font-size-sm : 1.2rem;
-    --font-size-md : 1.6rem;
-    --font-size-lg : 2.5rem;
-    --font-size-xl : 3rem;
+    --font-size-sm : 2rem;
+    --font-size-md : 2.5rem;
+     --font-size-lg : 3.5rem;
+     --font-size-xl : 4.2rem;
     
 
 }
@@ -24,7 +27,7 @@
 body {
     background:  var(--background-primary);
     color : var(--color-font-base);
-    font-size: var(--font-size-base);
+    
     font-family: 'Karla', sans-serif;
 }
 
@@ -71,7 +74,7 @@ p{
 
 button {
      padding: 20px 30px;
-     border: 3px solid transparent double;
+     border: 3px solid transparent ;
      border-radius: 15px;
      background: var(--color-primary);
      color: var(--color-font-inverted);

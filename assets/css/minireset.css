@@ -1,3 +1,25 @@
+:root {
+  /*colors*/
+  --color-primary: #f76c5e;
+  --color-primary-highlight : #f68e5f;
+  --color-font-base: #071f47;
+  --color-font-base-highlight: #547aa5;
+  --color-font-inverted : #f5f5f5;
+  --color-secundary: #324376;
+  --color-secundary-highlight : #586ba4;
+  /* brand colors*/
+   --color-provincial-pink : #fff4f2;
+  /*backgroud*/
+  --background-primary: #f2f4f9;
+  
+  /*font-sizes*/
+  --font-size-base : 10px;
+  --font-size-sm : 2rem;
+  --font-size-md : 2.5rem;
+  --font-size-lg : 3.5rem;
+  --font-size-xl : 4.2rem;
+}
+
 html,
 body,
 ol,
@@ -43,10 +65,12 @@ button,
 input,
 select {
   margin: 0;
+  font-family: 'Karla', sans-serif;
 }
 
 html {
   box-sizing: border-box;
+  font-size: var(--font-size-base);
 }
 
 *, *::before, *::after {
