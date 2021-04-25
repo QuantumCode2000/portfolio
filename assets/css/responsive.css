@@ -1,4 +1,5 @@
 @media (max-width : 600px  ) {
+
     .hero .container {
         max-width: 100%;
         padding: 15% 15%;
@@ -22,6 +23,9 @@
 }
 
 @media (max-width : 380px) {
+    :root {
+        --font-size-base : 11.4px;
+    }
     .title span {
         color: var(--color-primary);
         

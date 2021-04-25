@@ -16,7 +16,7 @@
     /*font-sizes*/
     /*font-sizes*/
     --font-size-base : 10px;
-    --font-size-sm : 2rem;
+    --font-size-sm : 1.8rem;
     --font-size-md : 2.5rem;
      --font-size-lg : 3.5rem;
      --font-size-xl : 4.2rem;
@@ -81,6 +81,8 @@ button {
      font-size: var(--font-size-md);
      text-transform: uppercase;
      cursor: pointer;
+     max-width: 300px;
+     width: 100%;
 }
 
 
