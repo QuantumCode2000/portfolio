@@ -19,7 +19,7 @@
     --font-size-sm : 1.8rem;
     --font-size-md : 2.5rem;
      --font-size-lg : 3.5rem;
-     --font-size-xl : 4.2rem;
+     --font-size-xl : 4.5rem;
     
 
 }
@@ -34,14 +34,17 @@ body {
 .hero {
     background: url("../img/photo-dog.png") no-repeat;
     background-size: 750px;
-    background-position: 110% 10% ;
+    background-position: 110% 10% ;  
+}
+
+.section {
     overflow: hidden;
     padding: 20px 30px;
 }
 
 .container{
-    float: left;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     margin: 0 auto;  
     max-width:  70%;
     display: flex;
@@ -50,12 +53,19 @@ body {
     padding: 20px 100px;
 }
 
+
+
+.hero .container {
+    float: left;
+}
+
 .hero-content{
     max-width: 800px;
 }
 
 .title  {
     font-size: var(--font-size-xl);
+    margin-right: 50px;
 }
 
 .title span {
@@ -63,12 +73,13 @@ body {
 }
 .title strong {
      font-size: var(--font-size-lg);
+     line-height: 1.125;
 }
 
 p{
      color: var(--color-font-base-highlight);
      font-size: var(--font-size-md);  
-     margin: 20px 0;
+     margin: 10px 0;
 }
 
 
@@ -89,13 +100,10 @@ button {
 
 
 
-.biography {
-    height: 100vh;;
-    background-color: var(--color-secundary);
+.biography  {
+    background-color: var(--color-provincial-pink);   
 }
 
-.expertise {
-    height: 100vh;;
-    background-color: var(--color-primary-highlight);
-}
+
+
 

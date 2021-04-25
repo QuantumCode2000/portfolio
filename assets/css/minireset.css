@@ -17,7 +17,7 @@
   --font-size-sm : 2rem;
   --font-size-md : 2.5rem;
   --font-size-lg : 3.5rem;
-  --font-size-xl : 4.2rem;
+  --font-size-xl : 4.5rem;
 }
 
 html,
@@ -55,7 +55,7 @@ h6 {
   font-size: 100%;
   font-weight: normal;
   font-family: 'Rubik', sans-serif;
-  line-height:  1.25;
+  
 }
 
 ul {
@@ -67,6 +67,7 @@ input,
 select {
   margin: 0;
   font-family: 'Karla', sans-serif;
+  
 }
 
 html {
