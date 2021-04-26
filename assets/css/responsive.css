@@ -21,6 +21,12 @@
     .biography .title {
         margin: 0.5em 0
     }
+
+
+    .expertise-item.has-card{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 

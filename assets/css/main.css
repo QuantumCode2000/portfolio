@@ -12,6 +12,7 @@
      --color-provincial-pink : #fff4f2;
     /*backgroud*/
     --background-primary: #f2f4f9;
+    --background-secondary: #dba1d6; ;
     
     /*font-sizes*/
     /*font-sizes*/
@@ -35,13 +36,16 @@ body {
     background: url("../img/photo-dog.png") no-repeat;
     background-size: 750px;
     background-position: 110% 10% ;  
+    border-bottom: 5px solid var(--color-primary);
 }
 
 .section {
     overflow: hidden;
     padding: 20px 30px;
 }
-
+.hero .container {
+    min-height: 90vh;
+}
 .container{
     min-height: 100vh;
     height: 100%;
@@ -54,6 +58,10 @@ body {
 }
 
 
+.container.is-short {
+    min-height: auto;
+}
+
 
 .hero .container {
     float: left;
@@ -65,7 +73,9 @@ body {
 
 .title  {
     font-size: var(--font-size-xl);
-    margin-right: 50px;
+    margin-bottom: 20px;
+
+    
 }
 
 .title span {
@@ -97,13 +107,62 @@ button {
 }
 
 
-
+.biography-title {
+    margin-right: 50px;
+}
 
 
 .biography  {
     background-color: var(--color-provincial-pink);   
+    border-bottom: 5px solid var(--color-primary);
 }
 
 
 
 
+.container.is-column {
+    flex-direction: column;
+}
+
+.expertise {
+    background: var(--color-secundary);
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 8px 15px 10px rgba(0, 0, 0, 0.05),4px 5px 10px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    width: 300px;
+}
+
+.expertise-item.has-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.title.is-inverted {
+    color: var(--color-font-inverted);
+}
+
+.card.js {
+    background: linear-gradient(-45deg, rgba(247,224,0,1) 0%, rgba(249,237,158,1) 100%);
+}
+
+.card.css {
+    background: linear-gradient(-45deg, rgba(11,0,36,1) 0%, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.card.html {
+    background: linear-gradient(-45deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 50%);
+}
+
+.subtitle {
+    font-size: var(--font-size-md);
+}
+.card p {
+    color: var(--color-font-inverted);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3)
+}
