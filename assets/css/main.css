@@ -169,5 +169,5 @@ button {
 
 .icon-github {
     min-width: 100px;
-    
+    max-width: 101px;
 }
