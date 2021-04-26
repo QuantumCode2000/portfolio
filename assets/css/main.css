@@ -168,6 +168,6 @@ button {
 }
 
 .icon-github {
-    max-width: 100px;
+    min-width: 100px;
     
 }
