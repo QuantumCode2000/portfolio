@@ -126,6 +126,7 @@ button {
 
 .expertise {
     background: var(--color-secundary);
+    border-bottom: 5px solid var(--color-primary);
 }
 
 
@@ -167,7 +168,22 @@ button {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3)
 }
 
-.icon-github {
-    min-width: 100px;
-    max-width: 101px;
+.icon {
+    min-width: 40px;
+    max-width: 41px;
+    margin-left: 20px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #907AD6;
+    height: 80px;
+}
+
+.name-icon {
+    font-size: 10px;
+}
+
