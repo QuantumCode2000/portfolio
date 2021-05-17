@@ -187,3 +187,44 @@ footer {
     font-size: 10px;
 }
 
+header{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header__nav{
+    
+
+}
+
+.header__nav--menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#menu li>a:hover{
+    color: #000;
+    background-color: #e6cdcd;
+  }
+  #menu>li{
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+
+  #menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 20vw;
+  }
+
